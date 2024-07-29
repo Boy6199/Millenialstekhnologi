@@ -1,0 +1,863 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --my-color: #002140;
+  --gray-color: #f1f1f1;
+  --animate-duration: 200ms;
+}
+
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: white;
+      user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      padding: 0;
+      margin: 0;
+      animation: fade-in 1s linear;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    #header {
+      background: var(--my-color);
+      padding: 10px;
+    }
+
+    .icon-nav img {
+      width: 25px;
+    }
+
+    
+
+    .refresh img {
+      width: 22px;
+    }
+
+    .my-bg {
+      background: var(--my-color);
+    }
+
+    .my-bg p {
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+      margin: 0px;
+    }
+
+    .list-border {
+      border-bottom: 1px solid #ccc;
+      padding: 16px 0;
+    }
+
+    .list-border p {
+      margin: 0px;
+      color: black;
+      font-size: 15px;
+    }
+
+    .my-top {
+      background-image:url('https://millenialstekhnologi.com/bukaolshop/filefast/banner3.webp');
+      background-size:100%;
+    background-repeat: no-repeat;
+      padding: 10px;
+      border-radius: 0px 0px 35px 35px;
+      scroll-behavior: smooth;
+    }
+    .manipulasiMyTop {
+      background-color:rgb(0,33,64,0.8);
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      height:380px;
+      z-index: 1;
+      border-radius: 0px 0px 35px 35px;
+       scroll-behavior: smooth;
+    }
+
+    .foto-profil {
+      width: 60px;
+      padding: 5px;
+      border-radius: 100px;
+      background: var(--gray-color);
+       scroll-behavior: smooth;
+    }
+
+    .grid3 {
+      list-style: none;
+      margin: 0;
+      padding: 0px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      max-width: 100%;
+      margin-top: 30px;
+       scroll-behavior: smooth;
+    }
+
+    .grid4 {
+      list-style: none;
+      margin: 0;
+      padding: 0px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+      max-width: 100%;
+    }
+
+    .caption {
+      margin-top: 20px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-left: 10px;
+    }
+
+    .white-change {
+      filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(308deg) brightness(103%) contrast(104%);
+    }
+
+    .top-menu {
+      text-align: center;
+     position: relative;
+      z-index: 2;
+    }
+.indexaja{
+        position: relative;
+      z-index: 2;
+}
+    .top-menu img {
+      width: 33px;
+    }
+
+    .top-menu p {
+      font-size: 14px !important;
+      font-weight: 700;
+      color: white;
+      margin-top: 5px;
+    }
+
+    .tab {
+      overflow: hidden;
+      list-style: none;
+      margin: 0;
+      padding: 2px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      max-width: 100%;
+      text-align: center;
+      align-items: center;
+      margin-top: 18px;
+
+    }
+
+    .tab button {
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: 0.3s;
+      background: var(--my-color);
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-radius: 15px;
+      text-align: center;
+      width: 90%;
+      margin-bottom: 35px;
+    
+    }
+
+    .tab img {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      z-index: 100;
+    }
+
+    .tab button p {
+      color: white;
+      font-size: 14px;
+      margin-bottom: 7px;
+      margin-top: 7px;
+      font-weight: 700;
+    }
+
+    .w-bg {
+      background: white;
+      width: 100%;
+      height: 100%;
+      padding: 5px;
+      border-radius: 10px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 5px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .tab button.active img {
+      filter: invert(260%) sepia(760%) saturate(2209%) hue-rotate(344deg) brightness(75%) contrast(75%);
+      position: relative;
+      z-index: 100;
+      width: 100%;
+      height: 100%;
+    }
+
+    .my-box {
+      background: white;
+     padding: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-radius: 10px;
+    position: relative;
+      top:0;
+      display: block;
+      margin-top: -30px;
+      z-index: 2;
+      padding-top: 20px;
+    }
+    
+    .tabcontent {
+      display: none;
+
+    }
+
+    .borders {
+      width: 60px;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      backdrop-filter: blur(6.1px);
+      -webkit-backdrop-filter: blur(6.1px);
+      padding: 4px;
+      position: relative;
+      z-index: 100;
+    }
+
+    .game {
+      text-align: center;
+      background: transparent;
+    }
+
+    .game img {
+      width: 45px;
+      border-radius: 8px;
+    }
+
+    .game p {
+      font-size: 11px !important;
+      margin-top: 4px;
+      color: black;
+      margin-bottom: 11px;
+    }
+
+    .swiper-wrapper,
+    .swiper-container {
+      z-index: 1;
+      display: flex;
+    }
+
+    .swiper-slider-center {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .list-border {
+      border-bottom: 1px solid #ccc;
+      padding: 16px 0;
+    }
+
+    .scroll-menu {
+     position: relative;
+      z-index: 3;
+      display: flex ;
+      clear: both;
+      white-space: nowrap;
+      overflow-x: auto;
+
+    }
+.padd-scroll {
+  display: flex;
+ position: relative;
+ z-index: 1; 
+  left: 213px;
+
+}
+.kingSlide {
+  display: flex ;
+  align-items: center;
+ margin-top: 60px;
+}
+#conbannerProduct {
+  position:absolute;
+ 
+}
+#imagePro{
+
+border-radius: 10px ;
+}
+
+.mlb >span{
+color: #9aa4bf;
+font-size: 11px;
+margin-top: 5px;
+}
+.mlb >p{
+color:white;
+margin-bottom: 5px;
+font-size: 11px;
+}
+.mb-0{
+color: #9aa4bf; 
+}
+.lp-product-harga{
+font-weight: 700;
+display: block;
+margin: 5px 0;
+font-size: 14px;
+color: #40d04f;
+}
+.lp-pro-s >span,.detik >span{
+font-size: 10.5px;
+
+}
+.fa-star{
+color:  #ffc107;;
+}
+
+.bg-nya {
+  background-color: #002140;
+  height: 542px;
+  margin: 0px 0 0 0  ;
+
+}
+
+.sil {
+  color: #e6e6e6;
+}
+#showProductAll {
+  cursor: pointer;
+}
+.lp-pro-s>span,.detik>span{
+color:  #9aa4bf;
+}
+.detik{
+display: flex;
+align-items: center;
+}
+.detik>img{
+width: 12px;
+}
+.mar{
+margin: 0 5% 0 5%;
+}
+.lp-product-title{
+color:white;
+}
+.hrefhov:hover .store-text{
+color: #40d04f;
+}
+
+.hrefhov:hover .lp-product-title{
+color:#40d04f;
+}
+    .scroll-menu::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scroll-product {
+      /*display:inline-block ;*/
+    margin: 0 5px;
+      position: relative;
+      z-index: 5;
+        border-radius: 10px;
+     width: 145px;
+      
+      background-color: #002140;
+    }
+.wp {
+  min-height: 83px ;
+  width: 100%;
+border-radius: 10px 10px 0 0;
+}
+
+@media (max-width: 980px){
+  .lp-product .lp-product-title{
+      margin-bottom: 0;
+      font-size: 12px;
+      line-height: 16px;
+      height: 32px;
+  }
+      
+  .lp-product .lp-product-title {
+      margin-bottom: 0!important;
+      font-size: 12px;
+      line-height: 18px;
+      height: 40px;
+      width: 100%;
+      color: #ccc;
+  }
+      }
+.font-weight-bold{
+  font-weight: 700!important;
+}
+    .borad{
+      border-radius: 15px;
+    }
+
+    .borad-10 {
+      border-radius: 10px;
+    }
+
+    .borad-15 {
+      border-radius: 15px;
+    }
+
+    .my-shadow {
+      box-shadow: rgba(0, 0, 0, 0.15) 0 0 5px 1px;
+    }
+
+    .bg-white {
+      background-color: #fff !important
+    }
+
+    .text-white {
+      color: #fff
+    }
+
+    .my-box {
+      top: -45px;
+    }
+
+    .f-8 {
+      font-size: 8px !important
+    }
+
+    .f-9 {
+      font-size: 9px !important
+    }
+
+    .f-10 {
+      font-size: 10px !important
+    }
+
+    .f-11 {
+      font-size: 11px !important
+    }
+
+    .f-12 {
+      font-size: 12px !important
+    }
+
+    .f-14 {
+      font-size: 14px !important
+    }
+
+    .f-16 {
+      font-size: 16px !important
+    }
+
+    .f-18 {
+      font-size: 18px !important
+    }
+
+    .f-20 {
+      font-size: 20px !important
+    }
+
+    .f-22 {
+      font-size: 22px !important
+    }
+
+    .f-24 {
+      font-size: 24px !important
+    }
+
+    .f-26 {
+      font-size: 26px !important
+    }
+
+    .f-28 {
+      font-size: 28px !important
+    }
+
+    .fwb-5 {
+      font-weight: 500
+    }
+
+    .fwb-6 {
+      font-weight: 600
+    }
+
+    .op-7 {
+      opacity: 0.7
+    }
+
+    .d-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .d-grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+
+    .d-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+
+    .app-panel {
+      text-align: center;
+    }
+
+    .app-panel img {
+      padding: 4px;
+      width: 35px;
+      border-radius: 5px;
+      background-color: #002140;
+    }
+
+    .app-panel p {
+      color: #002140;
+      font-size: 11px;
+      font-weight: 500;
+      margin-top: 8px;
+    }
+
+    .app-list {
+      text-align: center;
+    }
+
+    .app-list img {
+      padding: 2px;
+      width: 48px;
+      border-radius: 18%;
+      background-color: #E9EAEF;
+      box-shadow: 0 2px 4px rgba(0,
+          0, 0, 0.2);
+    }
+
+    .app-list p {
+      font-size: 10px;
+      font-weight: 600;
+      margin-top: 8px;
+      margin-bottom: 11px;
+    }
+
+    .pasca-list {
+      text-align: center;
+    }
+
+    .pasca-list img {
+      padding: 1px;
+      width: 48px;
+      border-radius: 18%;
+      background-color: rgba(233, 234, 239, 1);
+      box-shadow: 0 2px 4px rgba(0,
+          0, 0, 0.2);
+
+    }
+
+    .pasca-list p {
+      font-size: 10px;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+
+
+
+    .swiper-wrapper,
+    .swiper-container {
+      z-index: 1;
+      display: flex;
+    }
+
+    .swiper-slider-center {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .list-border {
+      border-bottom: 1px solid #ccc;
+      padding: 16px 0;
+    }
+
+    .scroll-menu {
+      clear: both;
+      white-space: nowrap;
+      overflow-x: auto;
+      padding: 16px 8px;
+    }
+
+    .scroll-menu::-webkit-scrollbar {
+      display: none;
+    }
+
+    .scroll-block {
+      display: inline-block;
+      margin: 0 8px;
+      width: 30%;
+    }
+
+    .text-top-block {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      /* word-break: break-all; */
+      white-space: break-spaces;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 2.5rem;
+    }
+
+    p {
+      margin: 0;
+      font-size: 12px
+    }
+
+
+    .rbutton {
+      border-radius: 100px;
+    }
+
+    .popup {
+      display: none;
+      background-color: white;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 100;
+    }
+
+
+
+
+
+    .popup {
+      display: none;
+      position: fixed;
+      /* Diubah dari absolute */
+      bottom: 20px;
+      /* Diubah dari posisi yang tidak disetel */
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 300px;
+      z-index: 100;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .popup h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .popup ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .popup li {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .popup li:last-child {
+      margin-bottom: 0;
+    }
+
+    .popup img {
+      margin-right: 8px;
+      width: 24px;
+      height: auto;
+    }
+
+    .popup a {
+      text-decoration: none;
+      color: #002140;
+    }
+
+    .popup a:hover,
+    .popup a:focus {
+      text-decoration: underline;
+    }
+
+    .close-btn {
+      width: 70px;
+      height: 10px;
+      border-radius: 0 0 5px 5px;
+      background-color: #ccc;
+    }
+    
+   .promo-text {
+    background-color: red;
+    animation: blink 0.7s infinite alternate;
+    color: white; /* Warna teks putih */
+    font-size: 0.3px; /* Ukuran font */
+    padding: 1px; /* Atur jarak di dalam elemen */
+    position: absolute; /* Buat elemen berposisi absolut */
+    right: 195px; /* Atur jarak dari sisi kanan */
+    bottom: 200px; /* Atur jarak dari sisi bawah */
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .promo-text {
+    font-size: 0.3px; /* Atur ukuran font untuk layar yang lebih kecil */
+    padding: 1px; /* Atur jarak di dalam elemen untuk layar yang lebih kecil */
+   
+  }
+}
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Menu Styles */
+.offcanvas {
+    background-color: #002140;
+    color: white; /* This sets the default text color for the offcanvas menu */
+}
+
+/* Ensure that all text inside the offcanvas menu is white */
+.offcanvas a,
+.offcanvas p,
+.offcanvas h1,
+.offcanvas h2,
+.offcanvas h3,
+.offcanvas h4,
+.offcanvas h5,
+.offcanvas h6,
+.offcanvas li,
+.offcanvas span {
+    color: white;
+}
+
+.white-change {
+    display: block; /* Membuat gambar menjadi blok agar bisa diberikan margin */
+    margin: auto; /* Menempatkan gambar di tengah */
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.eye-animation {
+    animation: blink 3.5s infinite;
+}
+
+#eye_icon {
+    width: 17px; /* ubah sesuai kebutuhan */
+    height: auto; /* menyesuaikan proporsi gambar */
+}
+
+#eye_icon_span {
+    display: inline-block; /* agar bisa menggunakan margin */
+    margin-top: -20px; /* menggeser ke atas sebesar 20 piksel */
+    margin-left: -1px; /* menggeser ke kanan sebesar 10 piksel */
+    position: relative; /* pastikan elemen ini memiliki posisi yang benar */
+}
+.game{
+
+}
+.conWrapProdukGame{
+    display: flex ;
+  justify-content: center;
+  position: relative;
+}
+.wrapProdukGame{
+  position: relative;
+max-width: fit-content;
+}
+
+.hot-absolute{
+  position: absolute;
+  top:0px;
+  right:0;
+  font-size: 0.10rem;
+  border-radius:4px;
+  color: white;
+  opacity: 1;
+  animation: bli 0.5s linear infinite;
+}
+
+@keyframes bli{
+ 0%{
+  opacity: 1;
+ }
+ 50%{
+   opacity: 1;
+ }
+100%{
+  opacity: 0;
+}
+}
+.style-hot0{
+   padding: 1.5px 3px 1.5px 3px;
+  background-color: rgb(255, 0, 0); 
+}
+.style-hot1{
+   padding: 1.5px 3px 1.5px 3px;
+  background-color: rgb(255, 0, 0); 
+}
+.style-hot12{
+   padding: 1.5px 3px 1.5px 3px;
+  background-color: rgb(255, 0, 0); 
+}
+.style-hot13{
+   padding: 1.5px 3px 1.5px 3px;
+  background-color: rgb(255, 0, 0); 
+}
+
+
+
+.logo {
+  display: grid;
+grid-template-columns: 1fr auto 0.8fr; 
+  width: 100%;
+}
+.logo img {
+  width: 135px;
+  grid-column: 2; 
+}
