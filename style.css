@@ -326,11 +326,16 @@ padding: 7px 9px 7px 9px;
    margin:12px 0 12px 0;  
   
   }
-   .condeski{
-   border-bottom: 10px solid rgb(247,247,247) ;
-   border-top: 10px solid rgb(247,247,247) ;
-  padding: 10px 0 10px 0;
-  }
+   .condeski {
+    border-bottom: 10px solid rgb(247, 247, 247);
+    border-top: 10px solid rgb(247, 247, 247);
+    padding: 10px 0;
+    height: 150px; /* Initial height */
+    overflow-y: auto; /* Adds scrollbar if text is long */
+    transition: height 0.3s; /* Smooth transition for height change */
+}
+    
+
   #closepop{
     transform: rotate(90deg);
     font-size: 24px;
