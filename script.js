@@ -98,7 +98,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/tokogaming/logoml.webp",
   },
   {
-    href: "https://waroengppob.pusatdigi.com/digital/288435",
+    href: "https://millenialstekhnologi.com/bukaolshop/ajaxgame/ajax-ff.html",
     identity: null,
     name: "Free Fire",
     hot: "HOT",
