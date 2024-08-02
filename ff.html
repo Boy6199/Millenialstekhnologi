@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Kembali</title>
+  
+  <style>
+   *{
+      margin: 0;
+     padding: 0;
+     	  font-family: 'Poppins',Sans-Serif;
+     	  font-size: small;
+    	}
+  body {
+    -webkit-touch-callout: none; 
+   webkit-user-select: none; 
+   -khtml-user-select: none;
+   -moz-user-select: none; 
+    -ms-user-select: none; 
+     user-select: none;
+background-color: rgb(247,247,247);    
+}
+
+.conbginput{
+  background-color:#002140;
+  height: 90px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+width: 100%;
+
+}	 
+.bginput{
+  background-color:white ;
+   padding: 20px;
+   width: 80vw;
+  margin: 30px 30px 0 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 1px 2px 1px rgb(0,0,0,0.1);
+}	 
+.conipcon{
+  position: relative;
+}
+ #nomoId{
+   width: 90%;
+   padding: 11px;
+   border: 2px solid silver;
+   outline: none;
+   border-radius: 5px;
+   
+ }
+ #nomoId:hover{
+   border: 2px solid #002140 ;
+ }
+ 
+ #nomorHp{
+   transition: 0.1s;
+   position: absolute;
+   top: 13px;
+   left: 13px;
+   background-color: white;
+   font-size: 14px;
+   font-weight: 600;
+color:rgb(0,0,0,0.5);
+ 
+ }
+  
+#ambil{
+  top: 7px;
+  right: 5%;
+  position: absolute;
+  cursor: default;
+  transform: scale(0.8); /* Ubah nilai 1.2 sesuai dengan ukuran zoom yang diinginkan */
+}
+	 .contact{
+	 width: 30px;
+ }
+	 
+  @media screen and (min-width:700px) and (max-width:1500px){
+	    #ambil{
+	      right: 10%;
+	    }
+	  }
+	  
+	  .margin{
+	    padding: 0 15px 0 15px;
+	  }
+	  
+	  .contoppil{
+   display:grid;
+  justify-content:center;
+   margin: 15px 0 0 0;
+ width: 100%;
+ background-color:rgb(247,247,247);  
+ }
+   .conpil{
+     display: flex;
+     align-items: center;
+     justify-content:space-between;
+    width: 80vw;
+    padding:20px;
+
+     }
+   .pp{
+     font-weight: 550;
+    margin-left:-20px;
+    color: rgb(0,0,0,0.6);
+    font-size: 14px;
+   }
+   .cons{
+  display: flex;
+  align-items: center;
+     justify-content:space-between;
+    width: 80vw;
+    padding:20px;
+   display: none;
+   }
+   #searchProduk{
+   border:none;
+   outline: none;
+   border-radius: 5px;
+   width:100%;
+   border-radius: 5px;  
+    background-color:transparent;
+    font-weight: 600;
+     margin-left:-20px; 
+     font-size: 14px;
+     transition: 5s;
+     
+   }
+ 
+ #show{
+     margin-right:-20px; 
+     font-size:18px;
+ }
+ #close{
+   font-size: 25px;
+   font-weight:500;
+   margin-right:-20px;
+   
+ }
+.condataApi{
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+  transition:0.5s;
+}
+ .box-shadow{
+  background-color: white; 
+   box-shadow: 1px 1.5px 1px rgb(0,0,0,0.1);
+   width: 80vw;
+   padding:10px 20px 10px 20px;
+   border-radius: 5px;
+   margin-bottom:15px;
+ }
+ .box-shadow:active{
+   background-color: rgb(0,0,0,0.1);
+ }
+ .lft{
+  margin-left: -10px;
+ }
+ .nameproduk{
+  font-weight: 600;
+   color: rgb(0,0,0,0.6);
+    font-size: 14px;
+ }
+ 
+ .langgan{
+   font-size:13.5px;
+ color: rgb(0,0,0,0.4);  
+ }
+ .price{
+   margin-top: 5px;
+   font-weight: 600;
+   color:#002140 ;
+   font-size: 14px; 
+ }
+
+#conkategori {
+/* display: none;*/
+ background-color: white;
+  padding:10px;
+  align-items: center;
+  text-align:center;
+  position:relative;
+  margin: 0; 
+  font-weight:600;
+ overflow-x:auto ;
+  margin-left:10rem ;
+  
+}
+#conkategori p{
+   
+font-size: 9.5px;
+}
+
+ #onek{
+ color: white; 
+ padding: 7px 9px 7px 9px;
+ border-radius: 15px;
+ background-color: #002140;
+ margin: 0 4px 0 4px;
+ } 
+ #twok{
+   padding: 7px 9px 7px 9px;
+   border-radius: 15px;
+   border:1px solid #002140;
+   color:#002140 ;
+     
+    margin: 0 4px 0 4px;
+white-space: nowrap;
+ }
+ #threek{
+  padding: 7px 9px 7px 9px;
+   border-radius: 15px;
+   border:1px solid #002140;
+   color:#002140 ; 
+  
+ margin: 0 4px 0 4px;
+white-space: nowrap;
+ }
+#four{
+padding: 7px 9px 7px 9px;
+   border-radius: 15px;
+   border:1px solid #002140;
+   color:#002140 ; 
+    
+  margin: 0 4px 0 4px;
+white-space: nowrap;
+ }
+ #five{
+padding: 7px 9px 7px 9px;
+   border-radius: 15px;
+   border:1px solid #002140;
+   color:#002140 ; 
+    
+  margin: 0 4px 0 4px;   
+white-space: nowrap; 
+ }
+ #six{
+padding: 7px 9px 7px 9px;
+   border-radius: 15px;
+   border:1px solid #002140;
+   color:#002140 ; 
+    
+  margin: 0 4px 0 4px;   
+white-space: nowrap;
+}
+ #seven{
+padding: 7px 9px 7px 9px;
+   border-radius: 15px;
+   border:1px solid #002140;
+   color:#002140 ; 
+    
+  margin: 0 4px 0 4px;   
+white-space: nowrap;
+ }
+ 
+ #onek,#twok,#threek,#four,#five,#six,#seven{
+  white-space: nowrap;
+}
+ 
+ .p{
+ padding: 7px 9px 7px 9px;
+   border-radius: 15px;
+   border:1px solid #002140;
+   color:#002140 ; 
+    margin: 0 4px 0 4px; 
+ }
+ 
+ #manbg{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(0,0,0,0.3);
+   display: none;
+ }
+    #fix{
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index:1;
+  }
+
+ #popBottom{
+       position: fixed;
+    background-color: white;
+    width: 100%;
+    transition: 0.4s;
+   border-radius: 15px 15px 0 0;
+  bottom: -100%;
+  z-index: 2;
+}  
+  .bg-rin{
+    background-color:#002140 ;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border-radius: 15px 15px 0 0;
+  }
+  .flex-beet{
+    display: flex;
+    justify-content: space-between;
+  }
+  .ml15{
+    margin-left: 15px;
+  }
+  .mr15{
+    margin-right:15px;
+  }
+  
+  #totCanv{
+   font-weight: 600;
+
+
+   font-size: 14px; 
+  }
+  #popBeli{
+    background-color:#002140 ;
+    padding:7px 13px 7px 13px;
+    border-radius: 5px;
+    color: white;
+  }
+  #popBeli:active{
+  opacity: 0.7;
+  }
+  
+  .ic{
+    align-items: center;
+
+  }
+  .boot{
+   margin:12px 0 12px 0;  
+  
+  }
+   .condeski{
+   border-bottom: 10px solid rgb(247,247,247) ;
+   border-top: 10px solid rgb(247,247,247) ;
+  padding: 10px 0 10px 0;
+margin:0 1rem 0 1rem;
+overflow-y: auto;
+  }
+  #closepop{
+    transform: rotate(90deg);
+    font-size: 24px;
+  }
+ .conone>span{
+     border:1px solid white;
+   width: 1px;
+   margin:2.5px;
+   display: flex;
+   margin-left: 15px;
+ }
+  .conh>span{
+   border:1px solid white;
+   width: 15px;
+   margin:2.5px;
+   display: flex;
+   margin-right: 15px;
+   margin-left:-0.5px;
+  }
+  .fx-al{
+    display:flex;
+    align-items: center;
+  }
+  .wt{
+    color:white;
+  }
+ .mt-mb-15{
+  margin-top: 15px;  
+  margin-bottom: 15px;
+  }
+  .di{
+    border-top: 2px dashed rgb(247,247,247) ;
+    max-width: 100%;
+  }
+  .op{
+     color: rgb(0,0,0,0.5);  
+     font-size: 14px;
+  }
+  .f600{
+    font-weight: 500;
+  }
+  
+    #bggawat{
+    position: fixed;
+    background-color: red;
+    color: white;
+    width:80%;
+    margin: auto ;
+    right: 0;
+    left: 0;
+    border-radius: 30px;
+    display:flex;
+    align-items: center;
+    font-size: 12.5px;
+    font-weight:600;
+    height: 45px;
+    z-index: 8;
+    box-shadow: 1px 1px 1px red;
+    bottom:65px;
+   transition: 0.3s;
+   transform: scale(0);
+  }
+.xya{
+     margin-right:15px;
+     margin-left:20px;
+    font-size: 25px;
+    font-weight:500;
+}
+
+  #animasigo{
+    background-color: rgb(0,0,0,0.6);
+    left: 50%;
+    transform:translateX(-50%);
+    position: fixed;
+    top: 45%;
+    padding: 20px 10px 25px 10px;
+    width: 30%;
+    color:rgb(247,247,247) ;
+    font-size: 12px;
+    border-radius:5px;
+    display:none;
+    z-index: 3;
+  }
+  .tc{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+  }
+  .tc>img{
+    width:45%;
+   
+  }
+  .tx{
+  text-align: center;
+  margin-top: 3px;
+  }
+  #manibgTop{
+    position: fixed;
+    z-index: 8;
+    background-color: rgb(0,0,0,0.3);
+    width:100%;
+    height:100%;
+    top: 0;
+    left:0;
+    display: none;
+  }
+  
+  #deskri{
+    font-size: 14px;
+
+    height: 3rem;
+    overflow-y:auto;
+  }
+  .gangguan{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   background-color:rgb(191,10,10);
+   color: white;
+   font-size: 13px;
+   padding:3px 3px 3px 7px ;
+   border-radius: 15px 0 0 0;
+  }
+  
+   .d-none{
+   display: none;
+ }
+ .d-block{
+   display: block;
+ }
+ #manipulasibox{
+   background-color: transparent;
+   position: relative;
+   width:100%;
+  height: 138px;
+   z-index: 2;
+   display: none;
+ }
+
+  .box-shadow-produk-x{
+    position: relative;
+  background-color: white; 
+   box-shadow: 1px 1.5px 1px rgb(0,0,0,0.1);
+   width: 80vw;
+   padding:10px 20px 10px 20px;
+   border-radius: 5px;
+   margin-bottom:15px;
+
+  }
+   .box-shadow-produk-x:active{
+     background-color:rgb(0,0,0,0.1);
+   } 
+  .fa-x{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color:white;
+    background-color:red;
+    padding: 5px;
+    border-radius: 0 0 0 4px;
+    font-size: 13px;
+  }
+#spin{
+  border:1.5px solid;
+  width:15px;
+  height: 15px;
+  border-radius: 100%;
+  border-left: 1.5px solid transparent;
+  animation: spinterus 1s linear infinite;
+ font-size: 24px;
+}
+@keyframes spinterus{
+0%{
+  transform: rotate(0deg);
+}100%{
+  transform: rotate(360deg);
+}
+}
+
+@media screen and (max-width:370px){
+#conkategori {
+  font-size: 0.6rem;
+}
+}
+
+
+#kingContainerPopUp{
+  background-color: rgba(0,0,0,0.5);
+  width:100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 5;  
+  position: fixed;
+  top:0;
+  display: none;
+  opacity: 0;
+}
+ .containerDetail {
+ position: fixed;
+left:50%;
+width:95vw;
+/*height: 50vh;*/
+transform: translateX(-50%);
+  background-color: white;
+  border-radius:10px;
+/*  opacity: 0;*/
+  transition: 0.3s;
+/* bottom:-200%;*/
+
+ } 
+ .c-white {
+   color: white;
+ }
+ .oneNavPop {
+     padding: 15px;
+   border-radius:10px 10px 0 0;
+   color: #002140;
+   
+  
+ }
+ .fa-exclamation {
+border:2px solid white ;
+ border-radius:100%;  
+padding: 4px 7px 2px 7px;
+font-size: 0.7rem;
+transform: rotate(180deg);
+margin-right:20px;
+ }
+ .fw-500{
+   font-weight: 500;
+ }
+ .c-700{
+   color: rgba(0,0,0,0.6);
+ }
+.fz-08{
+  font-size:0.85rem;
+} 
+.fw-400{
+   font-weight: 400;
+}
+#batalNow {
+  border:none;
+  background-color: transparent;
+ font-size: 1rem;
+ margin-left:20px;
+}
+#kirimNow {
+  padding: 7px 15px 7px 15px;
+  font-size: 0.9rem;
+  border-radius:5px;
+  border:none;
+  transition: 0.2s;
+  background-color: #32CD32;
+}
+    .bg-gaming{
+        background-color:#002140;    
+    }
+    .c-gaming{
+     color: #002140; 
+    }
+    .d-flex{
+      display: flex;
+    }
+    .jcsb{
+      justify-content: space-between;
+    }
+    
+ 
+            @keyframes spinDetail{
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+.bg-spesial {
+    background-color: #002140;
+    padding: 9px; 
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    top: -0.4px; /* Geser elemen ke atas sejauh 20px */
+
+/* Add specific padding where needed if there are other elements inside that require padding */
+.inner-element {
+    padding: 10px 20px; /* Adjust padding for inner elements if needed */
+}
+
+            @keyframes spinDetail{
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+
+  </style>
+<link rel="stylesheet" href="https://millenialstekhnologi.com/gaya/style.css">
+</head>
+<body>
+
+ <div class="conbginput">
+   <div class="bginput">
+   <div class="conipcon">
+     <input type="text"class="{{hasil_kontak}} {{hasil_scan}} "
+     id="nomoId" required/>
+  <p id="nomorHp">ID Pengguna</p>
+  <a href="https://waroengppob.pusatdigi.com/ambil_kontak" id="ambil">
+   <img src="https://millenialstekhnologi.com/dataicon/contact.png" alt="" class="contact"/>
+        </a>
+</div>
+        
+   </div>
+</div>
+ 
+  <!--pilihan produk-->
+<div id="fix">
+
+<div class="contoppil">
+ <div class="conpil">
+  <p class="pp">Pilihan Produk</p> 
+  <p id="show">
+   <i class="fa-solid fa-magnifying-glass">
+  </i></p>
+ </div>
+<div id="conpil1"></div>
+  <div class="cons">
+ <input type="text" id="searchProduk" placeholder="Masukan nama produk" required/>
+  <p id="close">x</p>
+ </div>
+ </div>
+
+ 
+<!--data produk api-->
+<div id="conkingkategori">
+  <div class="conkategori" id="conkategori">
+      <p id="onek" class="box"></p>
+      <p id="twok" class="box"></p>
+      <p id="threek" class="box"></p>
+      <p id="four" class="box"></p>
+      <p id="five" class="box"></p>
+      <p id="six" class="box"></p>
+      <p id="seven" class="box"></p>
+    </div>
+</div>
+</div>
+
+
+ 
+  <div class="condataApi">
+    <div id="manipulasibox"></div>
+    <div id="dataApi2">
+    </div>
+  </div>
+ 
+ 
+<!--popup harga -->
+<div id="manbg">
+  
+</div>
+
+<div id="maniPop">
+  
+</div>
+
+<div id="kingContainerPopUp">
+ <div class="containerDetail" >
+  <div class="oneNavPop bg-gaming c-white d-flex aic">
+    <i class="fa-solid fa-exclamation c-white"></i>
+    <p class="fw-500" style="color: white;">DETAIL PEMBELIAN</p>
+  </div>
+
+    
+  <div class="oneNavPop d-flex aic ">
+     <p class="c-700 fz-08 fw-400">Pastikan data pembelian sudah benar, karena kami tidak
+     bertanggung jawab jika terdapat kesalahan pada data di bawah ini.</p>
+    </div>
+  <hr> 
+  
+  <div class="oneNavPop d-flex jcsb aic">
+   <p class="c-700 fz-08 fw-400">
+     Pilihan Produk</p>
+   <p id="nameprice"></p>
+   </div>
+  <hr> 
+  <div class="oneNavPop d-flex jcsb aic">
+   <p class="c-700 fz-08 fw-400 nr">
+    Tujuan</p>
+ <p id="nohape"></p>
+   </div>
+  <hr> 
+  <div class="oneNavPop d-flex jcsb aic">
+   <p class="c-700 fz-08 fw-400">
+  Detail</p>
+  <div class="d-flex aic">
+   <div style="border: 2px solid rgba(0, 0, 0, 0.1); border-top: 2px solid
+    #3498db; border-radius: 50%; width: 18px; height: 18px; animation:
+    spinDetail 1s   linear infinite;" id="spin"></div>
+
+
+    
+ <p id="namaPemilik" class="d-none"></p>
+   </div>
+   
+   </div>
+  <hr> 
+  <div class="oneNavPop d-flex jcsb aic">
+   <p class="c-700 fz-08 fw-400">
+  Total</p>
+   <p id="totCanv" class="c-gaming"></p>
+   </div>
+  <hr> 
+  
+  <div class="oneNavPop tac">
+   <p id="deskri"></p>
+   </div>
+  <hr> 
+  <div class=" d-flex jcsb aic bg-spesial">
+<button id="batalNow" class="fw-500 active-opacity08 c-gaming" style="color:
+white;" onclick="cancelNow()">BATAL</button>
+<button class="bg-gaming c-white fw-500 active-opacity08" id="kirimNow">BELI SEKARANG</button>
+   </div>
+</div>
+</div>
+
+<div id="bggawat">
+  <p class="xya">x</p>
+  <p>Kolom Input ID Belum Di Isi</p>
+</div>
+
+<div id="animasigo">
+  <div class="tc">
+<img src="https://s12.gifyu.com/images/SUGfJ.gif" alt="ZKZg" border="0" />
+    </div>
+  <p class="tx">Memproses...</p>
+</div>
+<div id="manibgTop">
+</div>
+
+ 
+
+   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  
+  <script>
+/*id kategori dari 7 kategori kalau mau di tambah lanjutkan ,"" oke mantap ,maksimal nya 7 jenis id kategori berbeda yaaa */
+  const id_kategori =["253711","563939","563932","553762"];
+/*setting provider nya*/
+
+ /*kategori pertama */
+let kategoriSatu =  "FF Best";
+let kategoriDua = "Denom Unik"
+let kategoriTiga = "Denom Unik";  
+let kategoriEmpat = "Chip Promo";
+let kategoriLima = "Axis 15 Hari";
+let kategoriEnam = "Axis 15 Hari";
+let kategoriTuju = "Axis 15 Hari";
+
+/*atur sub kategori munculkan dan hilangkan 
+1.kata kunci hilangAll untuk menghilangkan semua sub kategori.
+2.kata kunci hilang untuk menghilangkan sub kategori 
+3.kata kunci # untuk memunculkan sub kategori selain kata kunci hilang bisa memunculkan sub kategori*/
+let subKategoriAll = "";
+
+let kategoriActionPertama  = "#";
+let kategoriActionKedua = "#";
+let kategoriActionKetiga = "hilang";
+let kategoriActionKeempat  = "hilang";
+let kategoriActionKelima  = "hilang";
+let kategoriActionKeenam  = "hilang";
+let kategoriActionKetuju  = "hilang";
+
+/*atur responsive box sub kategori masukkan nilai sesuai box yang tersedia misalkan box sub kategori ada 4 masukan nilai 4 di sesuaikan ya supaya box nya resoonsive*/
+
+let nilaiBox = 2;
+
+if(nilaiBox <=3 ){
+  conkategori.style.display = "flex";
+ conkategori.style.justifyContent = "center";
+ }
+ 
+if(nilaiBox >=4){
+   conkategori.style.display = "grid";
+  conkategori.style.justifyItems = "center";
+conkategori.style.gridTemplateColumns = `repeat(${nilaiBox},1fr)`;
+ conkategori.style.gap = "5px";
+ 
+}
+
+
+
+    var produkNone = `
+  <style>
+  .nonecen{
+    text-align:center;
+  }
+  .gmn{
+    text-align:center;
+  }
+  .gmn>img{
+    width:80%;
+    border-radius:50px;
+  }
+  </style>
+  <div id="nonecen">
+  <p class="gmn">
+  <img src="https://fastreloadagen.files.wordpress.com/2024/04/20240404_215938_00005479302715741589386.png">
+  <p class="gmn">Sepertinya produk ini belum tersedia...</p>
+ </p>
+  </div>
+  `;
+
+
+/*Token open apii*/
+  const token = "eyJhcHAiOiI2NzczMCIsImF1dGgiOiIyMDIxMDUwNyIsInNpZ24iOiJMTXZoUUhMSkZTQit4S3hDcjhMbWhRPT0ifQ==";
+    const urlOpenAPI = "https://openapi.bukaolshop.net/v1";
+    function formatRupiah(amount) {
+      if (!amount) return amount;
+      return (
+        new Intl.NumberFormat("id-ID", {
+          style: "currency",
+          currency: "IDR",
+          maximumFractionDigits: 0,
+        }).format(amount) || 0
+      );
+    }
+
+
+ function loopProduk2(data) {
+      data.sort(function (a, b) {
+        return a.harga_produk - b.harga_produk;
+      });
+      $.each(data, function (i, v) {
+    let de = v.deskripsi_panjang;
+        if (v.stok === 0) {
+          $("#dataProduk").append(`
+    <div class="box-shadow-produk-x childProduk"
+          id="btn-${v.id_produk}"  >
+      <p id="icon-check-${v.id_produk}">
+       </p>
+  <p class="gangguan">Gangguan</p>   
+  <p class="nameproduk listName">${v.nama_produk}</p>
+   <p class="langgan">${v.nama_produk}</p>
+ 
+   <p class="price">${formatRupiah(v.harga_produk)}</p>  
+   
+            </div>
+            `);
+        } else {
+        $("#dataProduk").append(`
+  <div class="box-shadow childProduk" 
+ id="btn-${v.id_produk}"
+ onclick="handleOpenCanva('${v.url_produk}','${v.nama_produk.replace(/\n/g, "")}','${v.harga_produk}','${v.id_produk}')">
+ 
+ <p id='icon-check-${v.id_produk}'>
+  </p>
+  
+  <p class="nameproduk listName">${v.nama_produk}</p>
+     <p class="langgan">${v.nama_produk}</p>
+   <p class="price">${formatRupiah(v.harga_produk)}</p> 
+   
+   <div class="d-none">
+ 
+ <span id='desc-prod-${v.id_produk
+   }'>${v.deskripsi_panjang}</span> 
+ </div>
+ 
+ </div>
+      `);
+        }
+      });
+
+function cekDetail(){
+document.querySelectorAll("cekDetail").forEach(idcek=>{
+ toTop();
+});
+}
+
+}
+
+
+
+
+
+
+
+ 
+  let stopAxisOne= false ;
+ let  stopAxisTwo = false ;
+ let stopAxisThree = false;
+ let stopEmpat = false;
+ let stopLima = false;
+ let stopEnam = false;
+ let stopTuju = false;
+
+    const getAxis = () => {
+       if(!stopAxisOne){
+       $.ajax({
+        type: "GET",
+        url:
+          urlOpenAPI +
+          `/app/produk?token=${token}&page=1&total_data=100&id_kategori=${id_kategori[0]}`,
+        success: function (response) {
+          console.log({ responseProduct: response });
+          if (response.data.length === 0) {
+            $("#dataApi2").html(produkNone);
+          } else {
+            $("#dataApi2").html(
+              `<div class="animate__animated box-produk animate__fadeIn p-2" id="dataProduk"></div>`
+            );
+          loopProduk2(response.data)
+          }
+        },
+      });
+stopAxisOne= true;      
+}
+   stopEmpat = false;
+   stopLima = false;
+   stopEnam = false;
+   stopTuju= false;
+stopAxisTwo = false;
+stopAxisThree = false;
+};
+     const getDetailProdukAxisTwo = () => {
+     if(!stopAxisTwo){
+       $.ajax({
+        type: "GET",
+        url:
+          urlOpenAPI +
+          `/app/produk?token=${token}&page=1&total_data=100&id_kategori=${id_kategori[1]}`,
+        success: function (response) {
+          console.log({ responseProduct: response });
+          if (response.data.length === 0) {
+            $("#dataApi2").html(produkNone);
+          } else {
+            $("#dataApi2").html(
+              `<div id="dataProduk"></div>`
+            );
+          loopProduk2(response.data)
+          console.log(response.data)
+          }
+        },
+      });
+   stopAxisTwo = true;
+    }
+    stopAxisOne = false;
+    stopAxisThree = false;
+     stopEmpat = false;
+   stopLima = false;
+   stopEnam = false;
+   stopTuju= false;
+    };
+    const getDetailProdukAxisThree = () => {
+       if(!stopAxisThree){
+       $.ajax({
+        type: "GET",
+        url:
+          urlOpenAPI +
+          `/app/produk?token=${token}&page=1&total_data=100&id_kategori=${id_kategori[2]}`,
+        success: function (response) {
+          console.log({ responseProduct: response });
+          if (response.data.length === 0) {
+            $("#dataApi2").html(produkNone);
+          } else {
+            $("#dataApi2").html(
+              `<div id="dataProduk"></div>`
+            );
+          loopProduk2(response.data)
+          console.log(response.data)
+          }
+        },
+      });
+   stopAxisThree = true;
+    }
+   stopAxisOne = false;
+   stopAxisTwo = false;
+      stopEmpat = false;
+   stopLima = false;
+   stopEnam = false;
+   stopTuju= false;
+    }
+    
+    const kEmpat = () => {
+       if(!stopEmpat){
+       $.ajax({
+        type: "GET",
+        url:
+          urlOpenAPI +
+          `/app/produk?token=${token}&page=1&total_data=100&id_kategori=${id_kategori[3]}`,
+        success: function (response) {
+          console.log({ responseProduct: response });
+          if (response.data.length === 0) {
+            $("#dataApi2").html(produkNone);
+          } else {
+            $("#dataApi2").html(
+              `<div id="dataProduk"></div>`
+            );
+          loopProduk2(response.data)
+          console.log(response.data)
+          }
+        },
+      });
+   stopEmpat = true;
+    }
+   stopAxisOne = false;
+   stopAxisTwo = false;
+   stopAxisThree = false;
+   stopLima = false;
+   stopEnam = false;
+   stopTuju= false;
+}
+
+    const kLima = () => {
+       if(!stopLima){
+       $.ajax({
+        type: "GET",
+        url:
+          urlOpenAPI +
+          `/app/produk?token=${token}&page=1&total_data=100&id_kategori=${id_kategori[4]}`,
+        success: function (response) {
+          console.log({ responseProduct: response });
+          if (response.data.length === 0) {
+            $("#dataApi2").html(produkNone);
+          } else {
+            $("#dataApi2").html(
+              `<div id="dataProduk"></div>`
+            );
+          loopProduk2(response.data)
+          console.log(response.data)
+          }
+        },
+      });
+stopLima = true;
+    }
+   stopAxisOne = false;
+   stopAxisTwo = false;
+   stopAxisThree = false;
+    stopEmpat = false ;
+   stopEnam = false;
+   stopTuju= false;
+}
+
+    const kEnam = () => {
+       if(!stopEnam){
+       $.ajax({
+        type: "GET",
+        url:
+          urlOpenAPI +
+          `/app/produk?token=${token}&page=1&total_data=100&id_kategori=${id_kategori[5]}`,
+        success: function (response) {
+          console.log({ responseProduct: response });
+          if (response.data.length === 0) {
+            $("#dataApi2").html(produkNone);
+          } else {
+            $("#dataApi2").html(
+              `<div id="dataProduk"></div>`
+            );
+          loopProduk2(response.data)
+          console.log(response.data)
+          }
+        },
+      });
+   stopEnam = true;
+    }
+   stopAxisOne = false;
+   stopAxisTwo = false;
+   stopAxisThree = false;
+    stopEmpat = false ;
+   stopLima = false;
+   stopTuju= false;
+}
+
+    const kTuju= () => {
+       if(!stopTuju){
+       $.ajax({
+        type: "GET",
+        url:
+          urlOpenAPI +
+          `/app/produk?token=${token}&page=1&total_data=100&id_kategori=${id_kategori[6]}`,
+        success: function (response) {
+          console.log({ responseProduct: response });
+          if (response.data.length === 0) {
+            $("#dataApi2").html(produkNone);
+          } else {
+            $("#dataApi2").html(
+              `<div id="dataProduk"></div>`
+            );
+          loopProduk2(response.data)
+          console.log(response.data)
+          }
+        },
+      });
+   stopTuju = true;
+    }
+   stopAxisOne = false;
+   stopAxisTwo = false;
+   stopAxisThree = false;
+   stopEmpat = false ;
+   stopLima = false;
+   stopEnam = false;
+}
+
+
+   
+let nomoId = document.getElementById("nomoId");
+function colorOne(){
+ onek.style.color = "white";
+onek.style.padding = "7px 9px 7px 9px";
+onek.style.borderRadius = "15px";
+onek.style.backgroundColor = "#002140";
+twok.style.backgroundColor = "white";
+twok.style.color = "#002140";
+twok.style.border = "1px solid #002140";
+threek.style.backgroundColor = "white";
+threek.style.color = "#002140";
+threek.style.border = "1px solid #002140";
+}
+
+function ubahOne(){
+let nomo = nomoId.value
+if(nomo.startsWith("+62")){
+  nomo = 0 + nomo.slice(3)
+  nomoId.value = nomo
+	}
+}	
+
+nomoId.addEventListener("input",()=>{
+ubahOne();
+});
+getAxis();
+
+ onek.addEventListener("click",getAxis);
+twok.addEventListener("click",getDetailProdukAxisTwo);
+threek.addEventListener("click",getDetailProdukAxisThree);
+
+four.addEventListener("click",kEmpat);
+five.addEventListener("click",kLima);
+six.addEventListener("click",kEnam);
+seven.addEventListener("click",kTuju);
+
+ onek.textContent = kategoriSatu;
+ twok.textContent = kategoriDua
+ threek.textContent =  kategoriTiga;
+ four.textContent = kategoriEmpat;
+ five.textContent = kategoriLima;
+ six.textContent = kategoriEnam;
+ seven.textContent = kategoriTuju;
+
+
+
+ if(subKategoriAll === "hilangAll"){
+ conkingkategori.style.display = "none";
+  document.querySelector(".contoppil").style.borderBottom = "1px solid rgb(0,0,0,0.1)";
+ manipulasibox.style.height = "78px";
+ }
+ 
+if(kategoriActionPertama == "hilang"){
+   onek.style.display = "none";
+ }
+if(kategoriActionKedua== "hilang"){
+   twok.style.display = "none";
+ }
+ if(kategoriActionKetiga=== "hilang"){
+   threek.style.display = "none";
+ }
+ if(kategoriActionKeempat === "hilang"){
+   four.style.display = "none";
+ }
+ if(kategoriActionKelima === "hilang"){
+   five.style.display = "none";
+ }
+ if(kategoriActionKeenam=== "hilang"){
+  six.style.display = "none";
+ }
+ if(kategoriActionKetuju=== "hilang"){
+   seven.style.display = "none";
+ }
+
+
+function ubh(){
+nomoId.addEventListener("change",()=>{
+let nomo = nomoId.value
+if(nomo.startsWith("+62")){
+  nomo = 0 + nomo.slice(3)
+  nomoId.value = nomo
+	}
+});
+}
+
+ambil.addEventListener("click",()=>{
+	ubh();
+setTimeout(()=>{
+ onek.style.color = "white";
+onek.style.padding = "7px 9px 7px 9px";
+onek.style.borderRadius = "15px";
+onek.style.backgroundColor = "#002140";
+twok.style.backgroundColor = "white";
+twok.style.color = "#002140";
+twok.style.border = "1px solid #002140";
+threek.style.backgroundColor = "white";
+threek.style.color = "#002140";
+threek.style.border = "1px solid #002140";
+},1000);
+});
+
+
+var idGame = $("#nomoId").val();
+
+ function handleOpenCanva(url, nama, harga,id_produk,deskripsi_panjang) {
+   $("#totCanv").html(formatRupiah(harga));
+   $("#nameprice").html(nama);
+    $("#nohape").html(nomoId.value);
+  $("#deskri").html(document.getElementById(`desc-prod-${id_produk}`).innerHTML);
+  
+$("#kirimNow").attr(
+          "onclick",
+          `checkIdGame('${url}')`
+);
+
+panggilGame();
+  if(nomoId.value.length <4){
+ animasigo.style.display = "block";
+manibgTop.style.display = "block";
+ setTimeout(()=>{
+  bggawat.style.transform = "scale(1)";
+},200);
+ setTimeout(()=>{
+ animasigo.style.display = "none";
+ manibgTop.style.display = "none"; 
+ },300)
+ setTimeout(()=>{
+ bggawat.style.transform = "scale(0)";
+ },1200);
+ }else{
+animasigo.style.display = "block";
+manibgTop.style.display = "block";
+setTimeout(()=>{
+ animasigo.style.display = "none";
+manibgTop.style.display = "none"; 
+kingContainerPopUp.style.display = 'flex';
+document.body.style.overflow = 'hidden';
+setTimeout(()=>{
+kingContainerPopUp.style.opacity = '1';
+},200);
+
+toTop();       
+},300)
+
+}
+}
+  
+function cancelNow(){
+ kingContainerPopUp.style.display = 'none';
+document.body.style.overflow = 'auto';
+setTimeout(()=>{
+kingContainerPopUp.style.opacity = '0';
+},200); 
+    namaPemilik.classList.add("d-none"); 
+   namaPemilik.innerText = "";
+    spin.classList.remove("d-none"); 
+} 
+function checkIdGame(url){
+ window.location.href = url + "?catatan=" +nomoId.value; 
+}
+
+    $('#nomoId').on('change', function () {
+         var no = $(this).val()
+            var newno = no.replace('-', '').trim()
+            var cek = newno.substring(0, 3).replace('-', '').trim()
+            var ceka = newno.substring(3, 16).replace('-', '').trim()
+
+            if (cek == '+62') {
+                let result = 0
+                $(this).val(result + ceka)
+                getNmr(result + ceka)
+            } else {
+                $(this).val(cek + ceka)
+                getNmr(cek + ceka);
+            }
+    ubahOne();
+    toTop();
+        });
+        function handleInput() {
+            console.log("Menangani input...");
+        }
+        
+       function getNmr(nomor) {
+       console.log("Nomor Telepon yang Dipilih: " + nomor);
+            $('#hasil_kontak').val(nomor);
+      $('#nomorTujuanModal').text(nomor);
+            handleInput();
+        }
+         $('#nomoId').on('change', function () {
+            var no = $(this).val();
+            var newno = no.replace('-', '').trim();
+            var cek = newno.substring(0, 3).replace('-', '').trim();
+            var ceka = newno.substring(3, 16).replace('-', '').trim();
+
+            if (cek == '+62') {
+                let result = 0;
+                $(this).val(result + ceka);
+                getNmr(result + ceka);
+
+            } else {
+                $(this).val(cek + ceka);
+                getNmr(cek + ceka);
+            }
+       ubahOne();
+toTop();
+
+        });
+    
+  $('.ambil_kontak').on('click', function (event){
+      event.preventDefault();
+            var nomorKontak = $(this).data('nomor-kontak');
+            $('#nomoId').val(nomorKontak);
+            var no = $('#nomoId').val();
+            var newno = no.replace('-', '').trim();
+            var cek = newno.substring(0, 3).replace('-', '').trim();
+            var ceka = newno.substring(3, 16).replace('-', '').trim();
+
+            if (cek == '+62') {
+                let result = 0;
+        $('#nomoId').val(result + ceka);
+                getNmr(result + ceka);
+            } else {
+        getNmr(cek + ceka);
+        
+   }
+            
+     console.log("Elemen Ambil Kontak diklik. Nomor Kontak: " + nomorKontak);
+  ubahOne();
+  toTop();
+})
+
+ const showS = document.querySelector(".cons");
+ const closeS = document.querySelector(".conpil");
+ 
+ show.addEventListener("click",()=>{
+ window.scrollBy(0,window.innerHeight * 0.167);
+ showS.style.display = "flex";
+ closeS.style.display = "none";
+ searchProduk.focus();
+});
+
+ document.getElementById("close").addEventListener("click",()=>{
+ window.scrollBy(0,window.innerHeight * -0.30);
+ showS.style.display = "none";
+ closeS.style.display = "flex";
+ });
+ 
+ function actionIp(a,b){
+ a.addEventListener("click",()=>{
+   a.style.top = "-9px";
+  a.style.backgroundColor = "white";
+  a.style.color = "#002140";
+  b.style.border = "2px solid #002140"; 
+ b.focus();
+ });
+ }
+ actionIp(nomorHp,nomoId);
+
+function actionClick(c,d,e,f,g,h,i){
+ c.style.color = "white";
+c.style.backgroundColor = "#002140";
+d.style.backgroundColor = "white";
+d.style.color = "#002140";
+d.style.border = "1px solid #002140";
+e.style.backgroundColor = "white";
+e.style.color = "#002140";
+e.style.border = "1px solid #002140";
+f.style.backgroundColor = "white";
+f.style.color = "#002140";
+f.style.border = "1px solid #002140";
+g.style.backgroundColor = "white";
+g.style.color = "#002140";
+g.style.border = "1px solid #002140";
+h.style.backgroundColor = "white";
+h.style.color = "#002140";
+h.style.border = "1px solid #002140";
+i.style.backgroundColor = "white";
+i.style.color = "#002140";
+i.style.border = "1px solid #002140"; 
+}
+onek.addEventListener("click",()=>{
+  setTimeout(()=>{
+actionClick(onek,twok,threek,four,five,six,seven);
+  },100);
+});
+
+twok.addEventListener("click",()=>{
+  setTimeout(()=>{
+actionClick(twok,onek,threek,four,five,six,seven);  
+  },100);
+});
+
+threek.addEventListener("click",()=>{
+  setTimeout(()=>{
+actionClick(threek,onek,twok,four,five,six,seven);
+},100);
+});
+
+four.addEventListener("click",()=>{
+  setTimeout(()=>{
+actionClick(four,threek,onek,twok,five,six,seven);
+},100);
+});
+
+five.addEventListener("click",()=>{
+  setTimeout(()=>{
+actionClick(five,onek,twok,threek,four,six,seven);
+  },100);
+});
+
+six.addEventListener("click",()=>{
+  setTimeout(()=>{
+actionClick(six,onek,twok,threek,four,five,seven);
+  },100);
+});
+
+seven.addEventListener("click",()=>{
+  setTimeout(()=>{
+actionClick(seven,onek,twok,threek,four,five,six);
+  },100);
+});
+
+
+
+
+window.addEventListener("scroll", () => {
+ const scrollThreshold = window.innerHeight *0.165
+    if (window.scrollY >= scrollThreshold) {
+
+   fix.style.position = "fixed";
+   fix.style.top = "-20px";
+   manipulasibox.style.display = "block";
+    } else {
+      fix.style.top = "0";   
+     fix.style.position = "relative";
+    document.querySelector('.condataApi').style.marginTop = "15px";
+  manipulasibox.style.display = "none";
+   }
+});
+
+
+searchProduk.addEventListener("input",()=>{
+ filterUp = searchProduk.value.toUpperCase();
+ dataproduk = document.getElementsByClassName('listName');
+ condataproduk = document.getElementsByClassName('childProduk');
+var dataproduk,filter,listName,condataproduk,txtValue;
+
+	for(var z = 0; z< dataproduk.length;z++){
+	txtValue = dataproduk[z].textContent
+  if(txtValue.toUpperCase().indexOf(filterUp)>-1) {
+  dataproduk[z].style.display = "";
+     condataproduk[z].style.display ="";
+    } else {
+   	dataproduk[z].style.display = "none";
+   condataproduk[z].style.display = "none";
+    }  
+ } 
+  	for(var x = 0; x< dataproduk.length;x++){
+		if(searchProduk.value.length == 0){
+    dataproduk[x].style.display = "";
+     condataproduk[x].style.display ="";
+		}
+	}
+}); 
+function toTop(){
+   nomorHp.style.top = "-9px";
+  nomorHp.style.backgroundColor = "white";
+  nomorHp.style.color = "#002140";
+nomoId.style.border = "2px solid #002140";
+}
+
+nomoId.addEventListener("touchstart",()=>{
+ toTop();
+})
+const apikey = "3a325e9a9861a66";
+
+// Fungsi untuk memanggil API dan menampilkan hasilnya
+async function panggilGame() {
+    if (nomoId.value.length < 7) {
+   setTimeout(()=>{
+    namaPemilik.classList.remove("d-none"); 
+   namaPemilik.innerText = "ID Tidak Valid";
+    spin.classList.add("d-none"); 
+   },1000);   
+    } else {
+        const nomor = nomoId.value;
+        const code = "FREEFIRE";
+        const other = ""; // Jika ada parameter tambahan, masukkan di sini
+        let urlApi = `https://cekid.solusimedia.my.id/v2/game/?code=${code}&id=${nomor}&other=${other}&key=${apikey}`;
+
+        try {
+            let response = await fetch(urlApi);
+            let data = await response.json();
+            console.log({ data });
+
+            if (data.result.status === 200) {
+   setTimeout(()=>{
+     namaPemilik.innerText = data.nickname;
+    namaPemilik.classList.remove("d-none");
+    spin.classList.add("d-none"); 
+   },1000);
+                
+            } else {
+   setTimeout(()=>{
+    namaPemilik.classList.remove("d-none");
+    namaPemilik.innerText = "ID Tidak Valid";
+    spin.classList.add("d-none"); 
+   },1000);
+            }
+        } catch (error) {
+            console.error('Error fetching data:', error);
+         
+   setTimeout(()=>{
+    namaPemilik.classList.remove("d-none");
+    namaPemilik.innerText = "ID Tidak Valid";
+    spin.classList.add("d-none"); 
+   },1000);
+        }
+    }
+}
+// Event listener untuk button nomorHp (jika ada)
+nomorHp.addEventListener("touchstart", () => {
+    toTop();
+});
+
+
+
+
+
+  </script>
+ 
+</body>
+</html>
