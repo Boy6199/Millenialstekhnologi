@@ -18,7 +18,7 @@ const arrPPOB = [
     img: "https://millenialstekhnologi.com/bukaolshop/img/smstelf.png",
   },
   {
-    href: "https://waroengppob.bukaolshop.site/digital/242575",
+    href: "https://millenialstekhnologi.com/bukaolshop/isiulang/ajaxsms.html",
     identity: null,
     name: "Token Pln",
     img: "https://millenialstekhnologi.com/bukaolshop/img/token.png",
