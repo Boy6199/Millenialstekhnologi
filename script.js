@@ -105,7 +105,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/ff1.webp",
   },
   {
-    href: "https://waroengppob.pusatdigi.com/digital/288437",
+    href: "https://millenialstekhnologi.com/bukaolshop/game/pubg.html",
     identity: null,
     name: "Pubg Mobile",
     img: "https://millenialstekhnologi.com/logo/pubg1.webp",
