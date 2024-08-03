@@ -12,7 +12,7 @@ const arrPPOB = [
     img: "https://millenialstekhnologi.com/bukaolshop/img/data.png",
   },
   {
-    href: "https://waroengppob.pusatdigi.com/digital/288369",
+    href: "https://millenialstekhnologi.com/bukaolshop/isiulang/ajaxsms.html",
     identity: null,
     name: "SMS & Tlp",
     img: "https://millenialstekhnologi.com/bukaolshop/img/smstelf.png",
