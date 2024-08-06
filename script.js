@@ -30,7 +30,7 @@ const arrPPOB = [
     img: "https://millenialstekhnologi.com/bukaolshop/img/streaming.png",
   },
   {
-    href: "https://waroengppob.bukaolshop.site/digital/196229",
+    href: "https://millenialstekhnologi.com/bukaolshop/isiulang/wifiid.html",
     identity: null,
     name: "Wifi ID",
     img: "https://millenialstekhnologi.com/bukaolshop/img/wifiid.png",
