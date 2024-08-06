@@ -294,32 +294,32 @@ const arrpulsareg = [
   {
     href: "https://millenialstekhnologi.com/bukaolshop/ajax/jxdata1.php",
     name: "Data Tsel",
-    img: "https://higgsdominoshopp.files.wordpress.com/2023/12/20231218_012929_00002913045142973053380.png",
+    img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/tsel7.png",
   },
   {
     href: "https://waroengppob.bukaolshop.site/digital/96379",
     name: "Data Xl",
-    img: "https://higgsdominoshopp.files.wordpress.com/2023/12/20231218_013432_00002522676415776158679.png",
+    img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/xl7.png",
   },
   {
     href: "https://waroengppob.bukaolshop.site/digital/96380",
     name: "Data Axis",
-    img: "https://higgsdominoshopp.files.wordpress.com/2023/12/20231218_013716_00003659915514944928854.png",
+    img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/axis7.png",
   },
   {
     href: "https://waroengppob.bukaolshop.site/digital/96381",
     name: "Data Indosat",
-    img: "https://higgsdominoshopp.files.wordpress.com/2023/12/wp-1702841249725910846242566153883.png",
+    img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/indosat7.png",
   },
   {
     href: "https://waroengppob.bukaolshop.site/digital/96382",
     name: "Data Three",
-    img: "https://higgsdominoshopp.files.wordpress.com/2023/12/20231218_023450_0000880659542922600271.png",
+    img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/three7.png",
   },
   {
     href: "https://waroengppob.bukaolshop.site/digital/96383",
     name: "Data SmartFren",
-    img: "https://higgsdominoshopp.files.wordpress.com/2023/12/20231218_014257_00002250780546706255887.png",
+    img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/smartfren7.png",
   },
 ];
 
