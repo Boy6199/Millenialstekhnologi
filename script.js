@@ -24,7 +24,7 @@ const arrPPOB = [
     img: "https://millenialstekhnologi.com/bukaolshop/img/token.png",
   },
   {
-    href: "https://waroengppob.bukaolshop.site/digital/245010",
+    href: "https://millenialstekhnologi.com/bukaolshop/isiulang/streamingmenu.html",
     identity: null,
     name: "Streaming",
     img: "https://millenialstekhnologi.com/bukaolshop/img/streaming.png",
