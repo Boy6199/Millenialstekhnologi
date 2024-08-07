@@ -185,7 +185,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/bos1.webp",
   },
   {
-    href: "https://waroengppob.pusatdigi.com/digital/288471",
+    href: "https://millenialstekhnologi.com/bukaolshop/game/bearfish.php",
     identity: null,
     name: "Domino Bearfish",
     img: "https://millenialstekhnologi.com/logo/bfc4.webp",
