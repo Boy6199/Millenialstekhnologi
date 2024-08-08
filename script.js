@@ -117,7 +117,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/bukaolshop/img/hago.png",
   },
   {
-    href: "https://waroengppob.pusatdigi.com/digital/242652",
+    href: "https://millenialstekhnologi.com/bukaolshop/game/lordmobile.html",
     identity: null,
     name: "Lord Mobile",
     img: "https://millenialstekhnologi.com/bukaolshop/img/lordmobile.jpg",
