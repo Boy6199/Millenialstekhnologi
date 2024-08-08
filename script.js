@@ -111,7 +111,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/pubg1.webp",
   },
   {
-    href: "https://waroengppob.bukaolshop.site/digital/242645",
+    href: "https://millenialstekhnologi.com/bukaolshop/game/hago.html",
     identity: null,
     name: "Hago",
     img: "https://millenialstekhnologi.com/bukaolshop/img/hago.png",
