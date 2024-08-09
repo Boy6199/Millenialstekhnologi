@@ -292,7 +292,7 @@ function populateData(arr, id) {
 
 const arrpulsareg = [
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/ajax/jxdata1.php",
+    href: "https://waroengppob.pusatdigi.com/digital/233336",
     name: "Data Tsel",
     img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/tsel7.png",
   },
