@@ -123,7 +123,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/bukaolshop/img/lordmobile.jpg",
   },
   {
-    href: "https://waroengppob.bukaolshop.site/digital/242551",
+    href: "https://millenialstekhnologi.com/bukaolshop/game/cod.html",
     identity: null,
     name: "Call Of Duty",
     img: "https://millenialstekhnologi.com/logo/cod1.webp",
