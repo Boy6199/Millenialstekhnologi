@@ -141,7 +141,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/fc1.webp",
   },
   {
-    href: "https://waroengppob.pusatdigi.com/digital/293706",
+    href: "https://millenialstekhnologi.com/bukaolshop/game/valorant.html",
     identity: null,
     name: "Valorant",
     img: "https://millenialstekhnologi.com/bukaolshop/img/valorant.webp",
