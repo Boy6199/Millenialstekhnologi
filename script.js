@@ -321,6 +321,12 @@ const arrpulsareg = [
     name: "Data SmartFren",
     img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/smartfren7.png",
   },
+
+  {
+    href: "https://waroengppob.bukaolshop.site/digital/96383",
+    name: "Data By U
+    img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/smartfren7.png",
+  },
 ];
 
 // Memuat data arrpulsareg ke elemen dengan ID pulsareg2
