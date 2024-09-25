@@ -325,7 +325,7 @@ const arrpulsareg = [
   {
     href: "https://waroengppob.bukaolshop.site/digital/96383",
     name: "Data By U
-    img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/smartfren7.png",
+    img: "https://cdn.jsdelivr.net/gh/Boy6199/Millenialstekhnologi@main/byu-logo.webp",
   },
 ];
 
