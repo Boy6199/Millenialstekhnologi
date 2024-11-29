@@ -191,7 +191,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/bfc4.webp",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/ajaxgame/jx-listgame.php?v=638068088",
+    href: "https://millenialstekhnologi.com/bukaolshop/ajaxgame/jx-listgame.php?v=638068077",
     identity: null,
     name: "Lihat Semua",
     img: "https://millenialstekhnologi.com/bukaolshop/img/menulain.webp",
