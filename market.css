@@ -346,14 +346,14 @@ white-space: nowrap;
 }  
 
 .active-over {
-background: linear-gradient(45deg, #EE4d2d, #00695c, #ee4d2d, #be6f17, #00695C, #d0011b, #8d1fdb);
+background: linear-gradient(45deg, #EE4d2d, #00695c, #00695c, #be6f17, #00695C, #d0011b, #8d1fdb);
 background-size: 400% 400%;
 color: white;
 animation: gradient-animation 20s infinite;
 }
 
 .active-clik-produk {
-background: linear-gradient(45deg, #EE4d2d, #00695c, #ee4d2d, #be6f17, #00695C, #d0011b, #8d1fdb);
+background: linear-gradient(45deg, #EE4d2d, #00695c, #00695c, #be6f17, #00695C, #d0011b, #8d1fdb);
 background-size: 200% 200%; /* Ubah ukuran gradien untuk mengatur ketebalan */
 color: white;
 animation: gradient-animation 5s infinite;
@@ -487,7 +487,7 @@ font-weight: 600;
 color:#d0011b;
 }
 .conDt{
-background-color: #ee4d2d;
+background-color: #00695c;
 border-radius:1rem 1rem 0 0;
 color: white;
 }
@@ -525,7 +525,7 @@ top:-100px;
 position: fixed;
 width:100%;
 padding: 6px;
-background-color:#ee4d2d;
+background-color:#00695c;
 transition: top 0.3s ease-in-out;
 }
 .active-top{
@@ -594,7 +594,7 @@ display:flex;
 align-items:center;
 margin-top:15px;
 color:black;
-border: 1px solid #ee4d2d;
+border: 1px solid #00695c;
 padding: 3px;
 border-radius:0.25rem;
 font-size: 10px;
