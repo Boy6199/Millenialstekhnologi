@@ -26,11 +26,11 @@ display: flex;
 }
 .bg-app {
 position: relative;
-background-color: #D0011B;
+background-color: #00695c;
 overflow: hidden; /* untuk menghindari overflow dari elemen pseudo */
 }
 .gang-x{
-  color: #D0011B;
+  color: #00695c;
 }
 .bg-app::before {
 content: '';
@@ -48,7 +48,7 @@ pointer-events: none; /* agar elemen pseudo tidak mengganggu interaksi */
 
 nav {
 position: relative;
-background-color: #D0011B;
+background-color: #00695c;
 overflow: hidden;
 }
 
@@ -176,7 +176,7 @@ vertical-align: middle;
 transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-1 {
-border: 1px solid #D0011B;
+border: 1px solid #00695c;
 }
 .btn-1:hover {
 border-color: rgb(141,184,233);
@@ -250,7 +250,7 @@ color:rgb(198,23,23);
 font-size:0.8rem;
 }
 .box-ng{
-color:#D0011B ;
+color:#00695c ;
 border-radius:0.35rem;
 background-color: rgb(99,163,235,0.1);
 }
@@ -346,14 +346,14 @@ white-space: nowrap;
 }  
 
 .active-over {
-background: linear-gradient(45deg, #EE4d2d, #D0011B, #ee4d2d, #be6f17, #00695C, #d0011b, #8d1fdb);
+background: linear-gradient(45deg, #EE4d2d, #00695c, #ee4d2d, #be6f17, #00695C, #d0011b, #8d1fdb);
 background-size: 400% 400%;
 color: white;
 animation: gradient-animation 20s infinite;
 }
 
 .active-clik-produk {
-background: linear-gradient(45deg, #EE4d2d, #D0011B, #ee4d2d, #be6f17, #00695C, #d0011b, #8d1fdb);
+background: linear-gradient(45deg, #EE4d2d, #00695c, #ee4d2d, #be6f17, #00695C, #d0011b, #8d1fdb);
 background-size: 200% 200%; /* Ubah ukuran gradien untuk mengatur ketebalan */
 color: white;
 animation: gradient-animation 5s infinite;
