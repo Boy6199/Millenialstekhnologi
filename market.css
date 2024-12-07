@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.bg-app {
+    position: relative;
+    background-color: #00695c;
+    overflow: hidden;
+}
+
+.gang-x {
+    color: #00695c;
+}
+
+.bg-app::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://fastreloadagen.wordpress.com/wp-content/uploads/2024/07/20240702_031135_00007669628071497512460.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+nav {
+    position: relative;
+    background-color: #00695c;
+    overflow: hidden;
+}
+
+nav::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://fastreloadagen.wordpress.com/wp-content/uploads/2024/07/20240702_031135_00007669628071497512460.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.alc {
+    align-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.tac {
+    text-align: center;
+}
+
+.mz-1 {
+    margin: 1rem;
+}
+
+.mx-1 {
+    margin: 0 1rem 0 1rem;
+}
+
+.pz-09 {
+    padding: 0.9rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fz-1 {
+    font-size: 1rem;
+}
+
+.c-g-o {
+    padding: 0.3rem;
+    border-radius: 0.70rem;
+    max-width: fit-content;
+}
+
+.c-g {
+    background-color: rgb(235, 235, 235);
+    max-width: fit-content;
+    padding: 0.2rem;
+    border-radius: 0.70rem;
+    display: flex;
+    justify-items: center;
+    box-shadow: -0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.c-g > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 0.35rem;
+}
+
+.ket-app {
+    font-size: 0.80rem;
+    font-weight: 500;
+    margin-top: 0.2rem;
+}
+
+.ket-produk {
+    font-size: 0.80rem;
+    font-weight: 500;
+    margin-top: -0.5rem;
+}
+
+.c-black-07 {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.ps-r {
+    position: relative;
+}
+
+.ps-a {
+    position: absolute;
+}
+
+.mi {
+    top: -8px;
+    font-size: 0.9rem;
+    left: 15px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.over-x-auto {
+    overflow-x: auto;
+}
+
+.conInput {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.conInput > div {
+    width: 100%;
+}
+
+.btn {
+    vertical-align: middle;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-1 {
+    border: 1px solid #00695c;
+}
+
+.btn-1:hover {
+    border-color: rgb(141, 184, 233);
+}
+
+.btn-1:focus,
+.btn-1.focus {
+    box-shadow: 0 0 0 0.17rem rgba(99, 163, 235, 0.5);
+}
+
+#noId {
+    width: 90%;
+    padding: 12px 8px 12px 8px;
+    border-radius: 0.35rem;
+    border: 1.5px solid #e5e5e5;
+    outline: none;
+}
+
+#ketCekId {
+    color: rgb(198, 23, 23);
+    position: relative;
+    top: 10px;
+    font-size: 0.8rem;
+}
+
+.swiper-king {
+    font-family: Arial, sans-serif;
+    margin: 0 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    left: 0;
+    position: sticky;
+    overflow-y: scroll;
+}
+
+.swiper-container-king {
+    width: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    background-color: white;
+    overflow-y: auto;
+}
+
+.swiper-slide > img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.35rem;
+    object-fit: cover;
+}
+
+.mt-1 {
+    margin: 1.5rem;
+}
+
+.box-product {
+    box-shadow: -0px 2px 3px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem;
+    font-weight: 550;
+    border-radius: 0.35rem;
+    background-color: #F5FFFA;
+    width: auto;
+}
+
+.px-1 {
+    padding: 1rem;
+}
+
+.original-price {
+    color: rgb(198, 23, 23);
+    font-size: 0.8rem;
+}
+
+.box-ng {
+    color: #00695c;
+    border-radius: 0.35rem;
+    background-color: rgba(99, 163, 235, 0.1);
+}
+
+#isiSaldo {
+    width: 20px;
+    height: 20px;
+    filter: invert(200%);
+}
+
+#popup {
+    /* display: none; */
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.loading div {
+    box-sizing: border-box;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid transparent;
+    border-radius: 50%;
+    animation: loading 1s cubic-bezier(0.1, 0, 0.5, 0.1) infinite;
+}
+
+.loading div:nth-child(1) {
+    animation-delay: -0.1s;
+    border-color: #d0011b transparent transparent transparent;
+}
+
+.loading div:nth-child(2) {
+    animation-delay: -0.2s;
+    border-color: #fcb045 transparent transparent transparent;
+}
+
+.loading div:nth-child(3) {
+    animation-delay: -0.3s;
+    border-color: #007bff transparent transparent transparent;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        border-color: #28a745 transparent transparent transparent;
+    }
+    50% {
+        border-color: #ffc107 transparent transparent transparent;
+    }
+    75% {
+        border-color: #dc3545 transparent transparent transparent;
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #d0011b transparent transparent transparent;
+    }
+}
