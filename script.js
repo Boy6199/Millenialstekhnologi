@@ -172,14 +172,14 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/hdi2.webp",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/ajaxgame/ajax-royal.php",
+    href: "https://waroengppob.pusatdigi.com/digital/328351",
     identity: null,
     name: "Royal Dream",
     hot: "HOT",
     img: "https://millenialstekhnologi.com/bukaolshop/img/royal6.jpg",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/game/bossdm.php?v=19191928",
+    href: "https://waroengppob.pusatdigi.com/digital/328352",
     identity: null,
     name: "Bos Domino",
     img: "https://millenialstekhnologi.com/logo/bos1.webp",
