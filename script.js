@@ -98,14 +98,14 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/tokogaming/logoml.webp",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/ajaxgame/ajax-ff.html",
+    href: "https://waroengppob.pusatdigi.com/digital/328355",
     identity: null,
     name: "Free Fire",
     hot: "HOT",
     img: "https://millenialstekhnologi.com/logo/ff1.webp",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/game/pubg.html",
+    href: "https://waroengppob.pusatdigi.com/digital/328356",
     identity: null,
     name: "Pubg Mobile",
     img: "https://millenialstekhnologi.com/logo/pubg1.webp",
@@ -185,7 +185,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/bos1.webp",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/game/bearfish.php",
+    href: "https://waroengppob.pusatdigi.com/digital/328354",
     identity: null,
     name: "Domino Bearfish",
     img: "https://millenialstekhnologi.com/logo/bfc4.webp",
