@@ -91,7 +91,7 @@ arrPPOB.forEach((game) => {
 
 const arrGame = [
   {
-    href: "https://waroengppob.pusatdigi.com/digital/328267",
+    href: "https://millenialstekhnologi.com/bukaolshop/ajaxgame/ajax-ml.php",
     identity: null,
     name: "Mobile Legends",
     hot: "HOT",
