@@ -159,7 +159,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/genshin1.webp",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/game/aov.html",
+    href: "https://waroengppob.pusatdigi.com/digital/242640",
     identity: null,
     name: "ArenaOfValor",
     img: "https://millenialstekhnologi.com/logo/arena1.webp",
