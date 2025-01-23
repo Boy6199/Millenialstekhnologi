@@ -141,13 +141,13 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/fc1.webp",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/game/valorant.html",
+    href: "https://waroengppob.pusatdigi.com/digital/293706",
     identity: null,
     name: "Valorant",
     img: "https://millenialstekhnologi.com/bukaolshop/img/valorant.webp",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/game/sausage.html",
+    href: "https://waroengppob.pusatdigi.com/digital/250116",
     identity: null,
     name: "Sausageman",
     img: "https://millenialstekhnologi.com/logo/sausageman1.webp",
