@@ -1,6 +1,6 @@
 const arrPPOB = [
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/isiulang/ajaxpulsa.html",
+    href: "https://waroengppob.pusatdigi.com/digital/242539",
     identity: null,
     name: "Pulsa",
     img: "https://millenialstekhnologi.com/bukaolshop/img/pulsa.png",
