@@ -165,7 +165,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/arena1.webp",
   },
   {
-    href: "https://waroengppob.pusatdigi.com/digital/328343",
+    href: "https://millenialstekhnologi.com/ajax2.0/higgs.html",
     identity: null,
     name: "Higgs Games",
     hot: "HOT",
