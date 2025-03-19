@@ -172,7 +172,7 @@ const arrGame = [
     img: "https://millenialstekhnologi.com/logo/hdi2.webp",
   },
   {
-    href: "https://waroengppob.pusatdigi.com/digital/328351",
+    href: "https://millenialstekhnologi.com/ajax2.0/royal.html",
     identity: null,
     name: "Royal Dream",
     hot: "HOT",
