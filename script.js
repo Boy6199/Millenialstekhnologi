@@ -12,7 +12,7 @@ const arrPPOB = [
     img: "https://millenialstekhnologi.com/bukaolshop/img/data.png",
   },
   {
-    href: "https://millenialstekhnologi.com/bukaolshop/isiulang/ajaxsms.html",
+    href: "https://waroengppob.pusatdigi.com/digital/288369",
     identity: null,
     name: "SMS & Tlp",
     img: "https://millenialstekhnologi.com/bukaolshop/img/smstelf.png",
@@ -51,42 +51,59 @@ const arrPPOB = [
 
 const gameListDiv = document.getElementById("prabayar");
 
+function createMenuItem(item, index = null, isGame = false) {
+  const anchor = document.createElement("a");
+  const wrapper = document.createElement("div");
+  const img = document.createElement("img");
+  const name = document.createElement("p");
+
+  if (isGame) {
+    const conWrap = document.createElement("div");
+    const wrapProduk = document.createElement("div");
+    const hotText = document.createElement("span");
+
+    wrapProduk.classList.add("wrapProdukGame");
+    conWrap.classList.add("conWrapProdukGame");
+    img.src = item.img;
+    img.alt = item.name;
+
+    name.textContent = item.name;
+    name.classList.add("name", `name${index}`);
+    wrapper.classList.add("game", `game${index}`);
+    img.classList.add("wrapImgHot", `wrapImgHot${index}`);
+
+    hotText.classList.add("hot-absolute", `style-hot${index}`);
+    hotText.innerText = item.hot || "";
+
+    wrapProduk.appendChild(img);
+    wrapProduk.appendChild(hotText);
+    conWrap.appendChild(wrapProduk);
+    wrapper.appendChild(conWrap);
+    wrapper.appendChild(name);
+  } else {
+    img.src = item.img;
+    img.alt = item.name;
+    name.textContent = item.name;
+    name.classList.add("name");
+    wrapper.classList.add("app-list");
+    wrapper.appendChild(img);
+    wrapper.appendChild(name);
+  }
+
+  if (item.identity !== null) {
+    anchor.setAttribute("data-bs-toggle", "offcanvas");
+    anchor.setAttribute("data-bs-target", `#${item.identity}`);
+    anchor.setAttribute("aria-controls", item.identity);
+  }
+
+  if (item.href !== null) anchor.href = item.href;
+  anchor.appendChild(wrapper);
+  return anchor;
+}
+
 // Loop melalui setiap objek dalam array arrPPOB
-arrPPOB.forEach((game) => {
-  // Membuat elemen img baru
-  const imgElement = document.createElement("img");
-  imgElement.src = game.img;
-  imgElement.alt = game.name;
-
-  // Membuat elemen p baru untuk menampilkan nama game
-  const nameElement = document.createElement("p");
-  nameElement.textContent = game.name;
-  nameElement.classList.add("name");
-
-  // Membuat elemen div baru untuk mengelompokkan gambar dan nama
-  const gameElement = document.createElement("div");
-  gameElement.classList.add("app-list");
-  gameElement.appendChild(imgElement);
-  gameElement.appendChild(nameElement);
-
-  // Membuat elemen a baru
-  const aElement = document.createElement("a");
-
-  // Jika identity tidak null, tambahkan atribut data-bs-toggle, data-bs-target, dan aria-controls
-  if (game.identity !== null) {
-    aElement.setAttribute("data-bs-toggle", "offcanvas");
-    aElement.setAttribute("data-bs-target", `#${game.identity}`);
-    aElement.setAttribute("aria-controls", `#${game.identity}`);
-  }
-
-  if (game.href !== null) {
-    aElement.href = game.href;
-  }
-
-  aElement.appendChild(gameElement);
-
-  // Menambahkan elemen aElement ke dalam elemen div gameListDiv
-  gameListDiv.appendChild(aElement);
+arrPPOB.forEach((item) => {
+  gameListDiv.appendChild(createMenuItem(item));
 });
 
 const arrGame = [
@@ -169,19 +186,19 @@ const arrGame = [
     identity: null,
     name: "Higgs Games",
     hot: "HOT",
-    img: "https://millenialstekhnologi.com/logo/hdi2.webp",
+    img: "https://millenialstekhnologi.com/logo/hgibr.jpg",
   },
   {
     href: "https://waroengppob.pusatdigi.com/digital/328351",
     identity: null,
-    name: "Royal Dream",
+    name: "RD Koin",
     hot: "HOT",
-    img: "https://millenialstekhnologi.com/bukaolshop/img/royal6.jpg",
+    img: "https://millenialstekhnologi.com/logo/rdbr.webp",
   },
   {
     href: "https://waroengppob.pusatdigi.com/digital/328352",
     identity: null,
-    name: "Bos Domino",
+    name: "Bos Party",
     img: "https://millenialstekhnologi.com/logo/bos1.webp",
   },
   {
@@ -201,66 +218,8 @@ const arrGame = [
 const gameListDiv2 = document.getElementById("gameList");
 
 // Loop melalui setiap objek dalam array arrGame
-arrGame.forEach(function (game, index) {
-  // Membuat elemen img baru
-  const imgElement = document.createElement("img");
-  const wrapImg = document.createElement("div");
-  //img gundo
-  wrapImg.classList.add("wrapImgHot", `wrapImgHot${index}`);
-  const textHot = document.createElement("span");
-
-  textHot.classList.add("hot-absolute", `style-hot${index}`);
-
-  imgElement.src = game.img;
-  imgElement.alt = game.name;
-  if (!game.hot) {
-    textHot.innerText = "";
-  } else {
-    textHot.innerText = game.hot;
-  }
-  // Membuat elemen p baru untuk menampilkan nama game
-  const nameElement = document.createElement("p");
-  nameElement.textContent = game.name;
-  nameElement.classList.add("name", `name${index}`);
-
-  // Membuat elemen div baru untuk mengelompokkan gambar dan nama
-  const gameElement = document.createElement("div");
-
-  gameElement.classList.add("game", `game${index}`);
-
-  const conWrapProdukGame = document.createElement("div");
-  conWrapProdukGame.classList.add("conWrapProdukGame");
-
-  const wrapProdukGame = document.createElement("div");
-  wrapProdukGame.classList.add("wrapProdukGame");
-  conWrapProdukGame.appendChild(wrapProdukGame);
-
-  gameElement.appendChild(conWrapProdukGame);
-  wrapImg.appendChild(imgElement);
-  wrapImg.appendChild(textHot);
-  wrapProdukGame.appendChild(wrapImg);
-  gameElement.appendChild(nameElement);
-
-  // Membuat elemen a baru
-  const aElement = document.createElement("a");
-
-  // Jika identity tidak null, tambahkan atribut data-bs-toggle, data-bs-target, dan aria-controls
-  if (game.identity !== null) {
-    aElement.setAttribute("data-bs-toggle", "offcanvas");
-    aElement.setAttribute("data-bs-target", `#${game.identity}`);
-    aElement.setAttribute("aria-controls", `#${game.identity}`);
-  }
-
-  if (game.href !== null) {
-    aElement.href = game.href;
-  } else {
-    aElement.href = "#";
-  }
-
-  aElement.appendChild(gameElement);
-
-  // Menambahkan elemen aElement ke dalam elemen div gameListDiv
-  gameListDiv2.appendChild(aElement);
+arrGame.forEach((item, index) => {
+  gameListDiv2.appendChild(createMenuItem(item, index, true));
 });
 
 // Function to populate data
