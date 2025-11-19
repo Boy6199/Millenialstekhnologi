@@ -1,12 +1,4 @@
 // kredensial.js
-// Pusat semua URL olshop di satu tempat.
-// Nanti kalau ganti domain, cukup ubah di sini saja.
+// Satu-satunya sumber kebenaran untuk URL olshop.
 
-(function (global) {
-  // URL utama olshop saat ini
-  global.urlOlshop = "https://frdigital.pusatdigi.com";
-
-  // Kalau suatu saat butuh lagi, bisa tambahkan:
-  // global.urlOlshopApi = global.urlOlshop + "/api";
-  // global.urlOlshopCallback = global.urlOlshop + "/callback";
-})(window);
+window.urlOlshop = "https://frdigital.pusatdigi.com";
