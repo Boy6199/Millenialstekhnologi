@@ -4,7 +4,7 @@
 
 (function (global) {
   // URL utama olshop saat ini
-  global.urlOlshop = "https://frdigital.pusatdigi.cm";
+  global.urlOlshop = "https://frdigital.pusatdigi.com";
 
   // Kalau suatu saat butuh lagi, bisa tambahkan:
   // global.urlOlshopApi = global.urlOlshop + "/api";
