@@ -10,7 +10,7 @@
   const APP_CONFIG = {
     // Base URL olshop utama
     // >>> CUKUP GANTI DI SINI SAJA KALAU PINDAH DOMAIN / SUBDOMAIN <<<
-    OLSHOP_BASE_URL: "https://frdigital.pusatdigi.com"
+    OLSHOP_BASE_URL: "https://frdigital.pusatdigi.co"
   };
 
   // =====================================
